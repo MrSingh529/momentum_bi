@@ -1,0 +1,24 @@
+
+[
+    { "id": 1, "month": "May", "center": "Friend M/S Mobile Point", "consumption": "55,000.00", "available": "12,000", "occupied": "-", "inTransit": "-" },
+    { "id": 2, "month": "May", "center": "Yaswanth Communications", "consumption": "2,60,000", "available": "1,75,000", "occupied": "5,000", "inTransit": "18,000" },
+    { "id": 3, "month": "May", "center": "Zainul Infotech", "consumption": "3,10,000", "available": "13,00,000", "occupied": "8,000", "inTransit": "55,000" },
+    { "id": 4, "month": "May", "center": "Sonu Mobile Shop", "consumption": "1,70,000", "available": "6,50,000", "occupied": "300", "inTransit": "4,000" },
+    { "id": 5, "month": "May", "center": "Jesvi Communications", "consumption": "13,50,000.00", "available": "38,00,000", "occupied": "25,000", "inTransit": "-" },
+    { "id": 6, "month": "May", "center": "Mobile seva", "consumption": "11,50,000", "available": "30,00,000", "occupied": "3,000", "inTransit": "-" },
+    { "id": 7, "month": "May", "center": "P N Enterprise", "consumption": "8,00,000", "available": "45,00,000", "occupied": "4,50,000", "inTransit": "60,000" },
+    { "id": 8, "month": "June", "center": "Friend M/S Mobile Point", "consumption": "57,000.00", "available": "12,500", "occupied": "-", "inTransit": "-" },
+    { "id": 9, "month": "June", "center": "Yaswanth Communications", "consumption": "2,65,000", "available": "1,80,000", "occupied": "5,200", "inTransit": "19,000" },
+    { "id": 10, "month": "June", "center": "Zainul Infotech", "consumption": "3,20,000", "available": "14,00,000", "occupied": "8,100", "inTransit": "58,000" },
+    { "id": 11, "month": "June", "center": "Sonu Mobile Shop", "consumption": "1,75,000", "available": "6,60,000", "occupied": "320", "inTransit": "4,200" },
+    { "id": 12, "month": "June", "center": "Jesvi Communications", "consumption": "13,70,000.00", "available": "40,00,000", "occupied": "25,500", "inTransit": "-" },
+    { "id": 13, "month": "June", "center": "Mobile seva", "consumption": "11,80,000", "available": "31,00,000", "occupied": "3,100", "inTransit": "-" },
+    { "id": 14, "month": "June", "center": "P N Enterprise", "consumption": "8,20,000", "available": "46,00,000", "occupied": "4,70,000", "inTransit": "61,000" },
+    { "id": 15, "month": "July", "center": "Friend M/S Mobile Point", "consumption": "58,141.39", "available": "13,032", "occupied": "-", "inTransit": "-" },
+    { "id": 16, "month": "July", "center": "Yaswanth Communications", "consumption": "2,70,272", "available": "1,82,074", "occupied": "5,519", "inTransit": "19,751" },
+    { "id": 17, "month": "July", "center": "Zainul Infotech", "consumption": "3,29,240", "available": "14,13,025", "occupied": "8,283", "inTransit": "59,108" },
+    { "id": 18, "month": "July", "center": "Sonu Mobile Shop", "consumption": "1,79,529", "available": "6,72,280", "occupied": "338", "inTransit": "4,431" },
+    { "id": 19, "month": "July", "center": "Jesvi Communications", "consumption": "13,83,913.28", "available": "40,12,285", "occupied": "25,798", "inTransit": "-" },
+    { "id": 20, "month": "July", "center": "Mobile seva", "consumption": "11,98,855", "available": "32,10,401", "occupied": "3,242", "inTransit": "-" },
+    { "id": 21, "month": "July", "center": "P N Enterprise", "consumption": "8,40,918", "available": "46,46,632", "occupied": "4,89,949", "inTransit": "61,304" }
+]

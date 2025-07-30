@@ -1,0 +1,24 @@
+
+[
+  { "id": 1, "month": "May", "center": "Friend M/S Mobile Point", "scCode": "IN01-503", "risk": "No Risk", "status": "Closed", "totalCalls": 25, "cancelledCalls": 0 },
+  { "id": 2, "month": "May", "center": "Yaswanth Communications", "scCode": "IN01-228", "risk": "No Risk", "status": "Active", "totalCalls": 410, "cancelledCalls": 20 },
+  { "id": 3, "month": "May", "center": "Zainul Infotech", "scCode": "IN01-505", "risk": "Top High Risk", "status": "Active", "totalCalls": 550, "cancelledCalls": 110 },
+  { "id": 4, "month": "May", "center": "Sonu Mobile Shop", "scCode": "IN01-502", "risk": "High Risk", "status": "Active", "totalCalls": 320, "cancelledCalls": 10 },
+  { "id": 5, "month": "May", "center": "Jesvi Communications", "scCode": "IN01-354", "risk": "Top High Risk", "status": "Closed", "totalCalls": 515, "cancelledCalls": 5 },
+  { "id": 6, "month": "May", "center": "Mobile seva", "scCode": "IN01-506", "risk": "High Risk", "status": "Closed", "totalCalls": 1100, "cancelledCalls": 80 },
+  { "id": 7, "month": "May", "center": "P N Enterprise", "scCode": "IN01-498", "risk": "Top High Risk", "status": "Active", "totalCalls": 1600, "cancelledCalls": 90 },
+  { "id": 8, "month": "June", "center": "Friend M/S Mobile Point", "scCode": "IN01-503", "risk": "No Risk", "status": "Closed", "totalCalls": 30, "cancelledCalls": 0 },
+  { "id": 9, "month": "June", "center": "Yaswanth Communications", "scCode": "IN01-228", "risk": "No Risk", "status": "Active", "totalCalls": 420, "cancelledCalls": 25 },
+  { "id": 10, "month": "June", "center": "Zainul Infotech", "scCode": "IN01-505", "risk": "Top High Risk", "status": "Active", "totalCalls": 565, "cancelledCalls": 100 },
+  { "id": 11, "month": "June", "center": "Sonu Mobile Shop", "scCode": "IN01-502", "risk": "High Risk", "status": "Active", "totalCalls": 330, "cancelledCalls": 5 },
+  { "id": 12, "month": "June", "center": "Jesvi Communications", "scCode": "IN01-354", "risk": "Top High Risk", "status": "Closed", "totalCalls": 525, "cancelledCalls": 8 },
+  { "id": 13, "month": "June", "center": "Mobile seva", "scCode": "IN01-506", "risk": "High Risk", "status": "Closed", "totalCalls": 1120, "cancelledCalls": 85 },
+  { "id": 14, "month": "June", "center": "P N Enterprise", "scCode": "IN01-498", "risk": "Top High Risk", "status": "Active", "totalCalls": 1620, "cancelledCalls": 92 },
+  { "id": 15, "month": "July", "center": "Friend M/S Mobile Point", "scCode": "IN01-503", "risk": "No Risk", "status": "Closed", "totalCalls": 34, "cancelledCalls": 0 },
+  { "id": 16, "month": "July", "center": "Yaswanth Communications", "scCode": "IN01-228", "risk": "No Risk", "status": "Active", "totalCalls": 431, "cancelledCalls": 28 },
+  { "id": 17, "month": "July", "center": "Zainul Infotech", "scCode": "IN01-505", "risk": "Top High Risk", "status": "Active", "totalCalls": 576, "cancelledCalls": 106 },
+  { "id": 18, "month": "July", "center": "Sonu Mobile Shop", "scCode": "IN01-502", "risk": "High Risk", "status": "Active", "totalCalls": 336, "cancelledCalls": 8 },
+  { "id": 19, "month": "July", "center": "Jesvi Communications", "scCode": "IN01-354", "risk": "Top High Risk", "status": "Closed", "totalCalls": 532, "cancelledCalls": 6 },
+  { "id": 20, "month": "July", "center": "Mobile seva", "scCode": "IN01-506", "risk": "High Risk", "status": "Closed", "totalCalls": 1134, "cancelledCalls": 90 },
+  { "id": 21, "month": "July", "center": "P N Enterprise", "scCode": "IN01-498", "risk": "Top High Risk", "status": "Active", "totalCalls": 1636, "cancelledCalls": 95 }
+]
