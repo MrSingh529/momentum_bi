@@ -8,7 +8,7 @@ const firebaseConfig = {
   projectId: "service-insights-dashboard",
   appId: "1:391015958608:web:436cf62b2ed8efa0ba6955",
   storageBucket: "service-insights-dashboard.firebasestorage.app",
-  apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY || "AIzaSyDkrl2KNBOC4kc1buAKZjE5rFwxVL_tGc0",
+  apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY,
   authDomain: "service-insights-dashboard.firebaseapp.com",
   messagingSenderId: "391015958608",
 };

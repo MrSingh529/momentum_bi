@@ -32,25 +32,27 @@ const prompt = ai.definePrompt({
   name: 'askAboutBidsPrompt',
   input: {schema: AskAboutBidsInputSchema},
   output: {schema: AskAboutBidsOutputSchema},
-  prompt: `You are a helpful data analyst. Your task is to answer a question based on the provided bids data.
-The user will provide a question and a JSON string of their bid data.
-Analyze the data carefully and provide a clear, concise answer to the user's question.
-Base your answer ONLY on the data provided. Do not make up information. If the data does not contain the answer, say so.
+  prompt: `You are a seasoned pre-sales consultant and data analyst. Your task is to answer a question based on the provided bids data.
 
-Context on the data columns:
+**Analysis Instructions:**
+1.  **Data-Driven Answers:** Base all numerical answers and specific data points ONLY on the data provided. Do not make up information. If the data does not contain the answer, say so clearly.
+2.  **Expert Advice:** If the user asks for suggestions, recommendations, or "how-to" advice (e.g., "how can we improve?", "how to ensure we pass?"), you should provide general, actionable advice based on industry best practices. Clearly separate this advice from the data-driven analysis.
+
+**Context on the data columns:**
 - 'bidSubmission' represents the total number of bids submitted for a given month. This is the denominator for calculating win rates.
 - 'won', 'lost', 'cancelled', 'dropped' represent the outcomes of bids.
+- 'pqtqEvaluation' represents bids currently in the Pre-Qualification/Technical-Qualification evaluation stage.
 - If the user asks for a "win rate" or "win ratio", you should calculate it by dividing the total 'won' bids by the total 'bidSubmission' bids and express it as a percentage.
 
-Data:
+**Data:**
 \`\`\`json
 {{{bidsData}}}
 \`\`\`
 
-Question:
+**Question:**
 "{{{question}}}"
 
-Answer the question based on the data.`,
+Answer the question following all instructions. For combined data and advice questions, answer the data part first, then provide your expert advice.`,
 });
 
 const askAboutBidsFlow = ai.defineFlow(
