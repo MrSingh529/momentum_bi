@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { useRouter } from "next/navigation";
-import { getAuth, signInWithEmailAndPassword, User } from "firebase/auth";
+import { getAuth, signInWithEmailAndPassword, User, setPersistence, browserLocalPersistence } from "firebase/auth";
 import { db } from "@/lib/firebase"; // Using db to get the initialized app
 import { doc, getDoc, setDoc } from "firebase/firestore";
 import { Button } from "@/components/ui/button";
@@ -51,8 +51,9 @@ export default function LoginPage() {
   const handleLogin = async (event: React.FormEvent) => {
     event.preventDefault();
     setError(null);
+    const auth = getAuth(db.app);
     try {
-      const auth = getAuth(db.app);
+      await setPersistence(auth, browserLocalPersistence)
       const userCredential = await signInWithEmailAndPassword(auth, email, password);
       await checkAndCreateUserProfile(userCredential.user);
       router.push("/dashboard");
